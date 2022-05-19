@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Minha página</title>
+    <meta charset="UTF-8" />
+
+
+    <style>
+        .img {
+            height: 36px;
+            width: 36px;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- 
+    ul - Unordered Lists (Listas não ordenadas) 
+        Recebem bulletes na frente de cada item
+    ol  - Ordered Lists (Listas ordenadas)
+        Recebem um marcardor definindo a sua ordem.
+        Por padrão o marcador usa números decimais. Ex.: 1, 2, 3, etc.
+        Para alterar o marcador, basta setar o atributo type:
+        type="A" - Marcador com letras em maiusculo: A, B, C, etc
+        type="a" - Marcador com letras em maiusculo: a, b, c, etc
+        type="I" - Marcador com letras que representam números romanos: I, II, III, etc
+        type="i" - Marcador com letras que representam números romanos em minúsculo: i, ii, iii, etc
+
+        Para exibir o contador a partir de um determinado valor, usar o atributo start
+        Para exibir o contador em ordem decrescente, usar o atributo reversed
+
+    li - representa um item da lista. Usando dentro das tags UL ou OL.
+    As tags UL/OL podem ser aninhadas dentro da tag LI
+-->
+
+    <ul>
+        <li>Carros
+            <ul>
+                <li>
+                    <a href="vw.html">
+                        <img class="img" src="img/vw.png"/>
+                    </a>
+                    <ul>
+                        <li>Golf</li>
+                        <li>Gol</li>
+                        <li>Nivus</li>
+                    </ul>
+                </li>
+                <li><a href="gm.html">GM</a>
+                    <ul>
+                        <li>Celta</li>
+                    </ul>
+                </li>
+                <li>
+                    Hyundai
+                    <ul>
+                        <li>HB20</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Motos</li>
+    </ul>
+
+    <ol type="A" id="lista-1">
+        <li>Limpeza
+            <ol type="a">
+                <li>Sabão em pó</li>
+                <li>Detergente</li>
+                <li>Candida</li>
+            </ol>
+        </li>
+        <li>
+            Higiene
+            <ol type="i">
+                <li>Creme dental</li>
+                <li>Sabonete</li>
+                <li>Desodorante</li>
+                <li>Shampoo</li>
+                <li>Condicionador</li>
+                <li>Gel</li>
+            </ol>
+        </li>
+        <li>Feira</li>
+        <li>Alimentos</li>
+        <li>Café da manhã</li>
+    </ol>
+    <p>Uma seção de texto aqui</p>
+    <ol start="6" type="A">
+        <li>Limpeza
+            <ol type="a">
+                <li>Sabão em pó</li>
+                <li>Detergente</li>
+                <li>Candida</li>
+            </ol>
+        </li>
+        <li>
+            Higiene
+            <ol type="i">
+                <li>Creme dental</li>
+                <li>Sabonete</li>
+                <li>Desodorante</li>
+                <li>Shampoo</li>
+                <li>Condicionador</li>
+                <li>Gel</li>
+            </ol>
+        </li>
+        <li>Feira</li>
+        <li>Alimentos</li>
+        <li>Café da manhã</li>
+    </ol>
+
+
+
+
+
+    <!-- <ul>
+        <li>Golf</li>
+        <li>Celta</li>
+        <li>HB20</li>
+    </ul>
+    <ul>
+        <li>CG</li>
+        <li>Harley</li>
+        <li>Kawasaki</li>
+    </ul> -->
+
+
+
+    <h1>Pagina principal</h1>
+
+</body>
+
+</html>
